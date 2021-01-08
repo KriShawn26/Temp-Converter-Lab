@@ -3,7 +3,7 @@
     * Add strong tags to header
     * Center the header
     
-    * Set farenheight as paragraph <p> element
+    * Set fahrenheit as paragraph <p> element
     * Set value as an input element : (numbers only)
     * Add button the says "calculate" (make button blue)
     * Set Celcius as a paragraph <p> element with strong <strong> tags
@@ -15,7 +15,16 @@
     * center Celcius 
 
 # JavaScript
+    *Connect HTML and JS files
+    *User clicks button
+    *Grab the number from the text input
+    *Calculate the celsius value with the formula c = (f * 9/5) + 32
+    *Update celsius text
 
-    *
-    *
-    *
+
+     
+     
+     
+    
+
+

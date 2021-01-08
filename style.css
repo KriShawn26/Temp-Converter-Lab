@@ -2,6 +2,23 @@ h1 {
     text-align: center;
 }
 
-temp {
+.temp {
 border-style: solid;
+padding: .4rem;
+
+}
+
+p {
+    text-align: center;
+}
+
+
+
+/* Flex container */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+
 }
