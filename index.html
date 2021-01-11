@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Temp_converter</title>
-        <link rel="stylesheet" href="style.css">
-        <script defer src="app.js"></script>
-    </head>
-    
-    <body>
-    <div class="flex-container" >
-        <div class="temp">
-        <h1><strong>Temperature scale converter</strong></h1>
-    <p>Value</p>
-    <form>
-        <label for="degrees">Fahrenheit</label>
-        <input type="number" id="degrees" placeholder="Value" name="degrees" min="5">
-        <input type="submit" value="Calculate">
-        <input type="number" name="Celcius" id="outputCelcius">
-        <p><strong>Celcius</strong></p>
 
-    </form>
+<head>
+    <title>Temp_converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="temp">
+            <h1><strong>Temperature scale converter</strong></h1>
+            <p>Value</p>
+
+
+            <label for="degrees">Fahrenheit</label>
+            <button onclick="outputCelcius()" value="Calculate">Calculate</button>
+            <input type="number" name="Celcius" id="numberInput">
+            <p><strong>Celcius</strong></p>
+            <p id="answer"></p>
+
         </div>
     </div>
-    
-    </body>
-    
-    
+    <script src="app.js"></script>
+</body>
+
+
 </html>

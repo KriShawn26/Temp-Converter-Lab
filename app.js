@@ -1,5 +1,5 @@
-function temperatureConverter(valNum) {
-    valNum = parseFloat(valNum);
-    document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8
-
+function outputCelcius() {
+    let valueToConvert = document.getElementById("numberInput").value;
+    let answer = (valueToConvert - 32) * 5 / 9;
+    document.getElementById("answer").innerHTML = answer;
 }
